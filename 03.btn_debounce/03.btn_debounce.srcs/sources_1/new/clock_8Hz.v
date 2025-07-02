@@ -6,7 +6,7 @@ module clock_8Hz(
     output reg o_clk_8Hz    // 8Hz
     );
     
-    localparam integer DIV_COUNT = 12_500_000 / 2;
+    localparam integer DIV_COUNT = 12_500_000 / 2; // 8Hz
     reg [23:0] i_count = 0;
 
     always @ (posedge i_clk or posedge i_reset) begin

@@ -1,0 +1,9 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"tb_btn_func_synth.v" \
+"../../../../../03.btn_debounce.srcs/sources_1/new/none_dff_button.v" \
+"../../../../../03.btn_debounce.srcs/sources_1/new/tick_generator.v" \
+"../../../../../03.btn_debounce.srcs/sim_1/new/tb_btn.v" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/project/FPGA/src/03.btn_debounce/03.btn_debounce.srcs/sources_1/new/none_dff_button.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module none_dff_button
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/project/FPGA/src/03.btn_debounce/03.btn_debounce.srcs/sources_1/new/tick_generator.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tick_generator
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/project/FPGA/src/03.btn_debounce/03.btn_debounce.srcs/sim_1/new/tb_btn.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_btn
