@@ -1,0 +1,8 @@
+Time resolution is 1 ps
+time=                   0 | noisy_btn=0 | clean_btn=x
+time=               20000 | noisy_btn=0 | clean_btn=0
+time=          1000040000 | noisy_btn=1 | clean_btn=0
+time=          2000045000 | noisy_btn=1 | clean_btn=1
+time=         31000040000 | noisy_btn=0 | clean_btn=1
+time=         32000045000 | noisy_btn=0 | clean_btn=0
+$finish called at time : 41000040 ns : File "D:/project/FPGA/src/03.btn_debounce/03.btn_debounce.srcs/sim_1/new/tb_btn.v" Line 35
