@@ -28,3 +28,4 @@ module tick_generator(
         end
 
 endmodule
+

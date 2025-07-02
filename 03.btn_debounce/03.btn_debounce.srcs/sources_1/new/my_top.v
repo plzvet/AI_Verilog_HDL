@@ -11,7 +11,7 @@ module my_top(
     reg r_led_toggle = 1'b0;
     wire o_clean_btn;
 
-    none_dff_button dut_btn(
+    none_dff_button u_btn(
         .i_clk(clk),
         .i_reset(reset),
         .i_noisy_btn(btnC),
@@ -30,3 +30,4 @@ module my_top(
     assign led = (r_led_toggle == 1) ? 1'b1 : 1'b0; 
     
 endmodule
+

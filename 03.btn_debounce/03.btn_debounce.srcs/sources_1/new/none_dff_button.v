@@ -19,7 +19,7 @@ module none_dff_button(
     
     // 100Hz, 10ms 타이머
     tick_generator #(
-        .TICK_HZ(1000)
+        .TICK_HZ(100)
     ) u_tick_generator (
         .clk(i_clk),
         .reset(i_reset),
@@ -44,3 +44,4 @@ module none_dff_button(
     end
 
 endmodule
+

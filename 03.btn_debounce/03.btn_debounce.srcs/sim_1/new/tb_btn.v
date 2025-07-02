@@ -32,6 +32,7 @@ module tb_btn();
         #30_000_000 i_noisy_btn = 0;
 
 
-        #10_000_000 $finish;  // 시뮬레이션 1ms까지
+        #10_000_000 $finish;  // 
     end
 endmodule
+
