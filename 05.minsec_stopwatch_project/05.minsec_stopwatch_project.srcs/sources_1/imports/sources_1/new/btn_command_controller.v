@@ -39,6 +39,7 @@ module btn_command_controller(
         if (reset) begin
             r_mode <= 0;
             prev_btnL[0] <= 0;
+            led[0] <= 0;
         end else begin
             if (btn[0] && !prev_btnL[0]) begin // 처음 눌려진 상태
                 r_mode <= (r_mode == STOPWATCH) ? IDLE_MODE : r_mode + 1;
@@ -65,7 +66,8 @@ module btn_command_controller(
     always @(posedge clk or posedge reset) begin
         if (reset) begin
             run_state <= 0;
-            prev_btnL[1] <= 0;         
+            prev_btnL[1] <= 0;
+            led[1] <= 0;         
         end else if (r_mode == STOPWATCH) begin
             if (btn[1] && !prev_btnL[1]) begin  // 처음 눌려진 상태
                 run_state <= ~run_state;        // runstate 1 : RUN, 0 : STOP
@@ -81,7 +83,8 @@ module btn_command_controller(
     always @(posedge clk or posedge reset) begin
         if (reset) begin
             prev_btnL[2] <= 0;
-            clear <= 0;       
+            clear <= 0;
+            led[2] <= 0;       
         end else if ((r_mode == STOPWATCH) || (r_mode == MINSEC_WATCH)) begin
             if (btn[2] && !prev_btnL[2]) begin // 처음 눌려진 상태
                 clear <= 1'b1;
@@ -100,6 +103,7 @@ module btn_command_controller(
         if (reset) begin
             prev_btnL[3] <= 0;
             speed_idx <= 0;
+            led[3] <= 0;
         end else if (r_mode == IDLE_MODE) begin
             if (btn[3] && !prev_btnL[3]) begin // 처음 눌려진 상태
                 if (speed_idx == 2'd3)
