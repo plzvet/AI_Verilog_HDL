@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module btn_command_controller(
+module command_controller(
     input clk,
     input reset,  // btnU
     input [2:0] btn, // btn[0]: L btn[1]:C btn[2]:R

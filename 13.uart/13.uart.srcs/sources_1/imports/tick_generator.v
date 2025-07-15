@@ -1,13 +1,14 @@
 `timescale 1ns / 1ps
 
- module tick_generator (
+ module tick_generator # (
+    parameter integer INPUT_FREQ = 100_000_000,
+    parameter integer TICK_HZ = 1000      
+ ) (
     input clk,
     input reset,
     output reg tick
  );   
 
-    parameter INPUT_FREQ = 100_000_000;
-    parameter TICK_HZ = 1000;  
     parameter TICK_COUNT =  INPUT_FREQ / TICK_HZ;   // 100_000
 
     reg [$clog2(TICK_COUNT)-1:0] r_tick_counter =0;  // 16 bits
