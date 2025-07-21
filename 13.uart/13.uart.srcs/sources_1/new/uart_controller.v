@@ -3,7 +3,7 @@
 module uart_controller(
     input clk,
     input reset,
-    input [7:0] send_data,
+    input [13:0] send_data,
     input rx,
     output tx,
     output [7:0] rx_data,
