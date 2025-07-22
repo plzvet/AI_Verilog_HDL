@@ -73,6 +73,6 @@
 
 ## 📸 결과 영상
 
-> 📽 [시연 영상 보러가기](https://youtu.be/3Lz6mxAgbA8)
+> 📽 [시연 영상 보러가기](https://youtu.be/jwZGhXpBpxg)
 
 ---
