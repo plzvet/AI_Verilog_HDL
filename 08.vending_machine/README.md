@@ -136,6 +136,6 @@ vending_machine/
 
 ## 📸 결과 영상
 
-> 📽 [시연 영상 보러가기](https://youtu.be/ssTYbH39unI)
+> 📽 [시연 영상 보러가기](https://youtube.com/shorts/n2Vqw9sh7Sw?feature=share)
 
 ---
