@@ -200,8 +200,8 @@ stateDiagram-v2
 
 | 영상 종류 | 링크 |
 |----------|------|
-| 📦 전체 동작 영상 | [동작 영상 보러가기](https://youtube.com/shorts/1sJZ1K1JNUI) |
-| 📡 UART 통신 영상 | [comportmaster 출력 영상](https://youtube.com/shorts/0ijM9RrLEJM) |
+| 📦 전체 동작 영상 | [동작 영상 보러가기](https://youtube.com/shorts/83tORA8PDt0?feature=share) |
+| 📡 UART 통신 영상 | [comportmaster 출력 영상](https://youtube.com/shorts/UOM2bnoa3AQ?feature=share) |
 
 ---
 
