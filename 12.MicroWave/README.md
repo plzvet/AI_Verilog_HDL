@@ -77,7 +77,7 @@ stateDiagram-v2
 
 ## 🎥 시연 영상
 
-👉 [YouTube 시연 영상 바로 보기](https://youtube.com/shorts/ziCvCQJrvrs)
+👉 [YouTube 시연 영상 바로 보기](https://youtube.com/shorts/S-JsLTLKyhQ?feature=share)
 
 > 영상에서는 버튼을 이용한 시간 설정, 조리 시작, DC 모터 회전, FND 출력, 서보모터 문 제어, 부저 반응 등의 전체 동작 흐름을 확인할 수 있습니다.
 
